@@ -9,6 +9,9 @@ URL:     https://linuxconsole.sourceforge.net
 Group:   Development/Other
 Source0: https://downloads.sourceforge.net/linuxconsole/%{realname}-%{version}.tar.bz2
 
+# For ffmvforce
+BuildRequires: pkgconfig(sdl2)
+
 %description
 The following utilities are provided to calibrate and test joysticks:
 * evdev-joystick - calibrate joystick devices (including dead zones
